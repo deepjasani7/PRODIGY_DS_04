@@ -34,7 +34,7 @@ The main objective of this project is to perform sentiment analysis on Twitter d
 4. **Visualization**: Create visualizations such as bar charts and word clouds to explore sentiment patterns.
 
 ### Steps in the Notebook:
-1. **Load Libraries**: Import required libraries such as `pandas`, `matplotlib`, `seaborn`, and `wordcloud`.
+1. **Load Libraries**: Import required libraries such as `pandas`, `matplotlib`, `TextBlob`.
 2. **Load Dataset**: Read the `twitter_training.csv` file into a DataFrame.
 3. **Data Preprocessing**: Clean the tweet text by removing noise (e.g., URLs, special characters) and tokenize the text for analysis.
 4. **Sentiment Distribution**: Analyze the distribution of sentiments (positive, negative, neutral) across the dataset.
@@ -46,4 +46,4 @@ The main objective of this project is to perform sentiment analysis on Twitter d
 ## How to Run the Notebook
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/deepjasani7/PRODIGY_DS_04
